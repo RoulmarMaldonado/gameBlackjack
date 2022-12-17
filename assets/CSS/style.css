@@ -1,0 +1,21 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+.tittle{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 25px;
+}
+
+.cards{
+    position: relative;
+    width: 150px;
+    left: 100px;
+    margin-left: -75px;
+    
+}
+#cardsPlayer, #cardsComputer{
+height: 250px;
+}
