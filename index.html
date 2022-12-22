@@ -11,21 +11,20 @@
     <link rel="stylesheet" href="assets/CSS/style.css">
     <title>BlackJack-Game</title>
 </head>
-
 <body>
     <header class="tittle">BlackJack-Game
     </header>
     <div class="col text-center">
-        <button class="btn btn-danger">Nuevo Juego</button>
-        <button class="btn btn-primary">Pedir carta</button>
-        <button class="btn btn-primary">detener</button>
+        <button  id="btnNuevo" class="btn btn-danger">Nuevo Juego</button>
+        <button id="btnPedir" class="btn btn-primary">Pedir carta</button>
+        <button id="btnDetener" class="btn btn-primary">detener</button>
     </div>
     <div class="row container mt-2">
         <div class="col">
             <h1>Jugador-1-<small> 0 </small></h1>
         </div>
         <div id="cardsPlayer">
-            <img class="cards" src="assets/cartas/2C.png">
+            
         </div>
     </div>
     <div class="row container">
@@ -33,7 +32,7 @@
             <h1>Computador-<small> 0 </small></h1>
         </div>
         <div id="cardsComputer">
-            <img class="cards" src="assets/cartas/10H.png">
+            
         </div>
     </div>
     <script src="/assets/JS/underscore-min.js"></script>
